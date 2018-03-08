@@ -1,0 +1,25 @@
+{
+  "name": "slack-slash-search-status",
+  "version": "1.0.0",
+  "description": "search for a status in slack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbgood/slack-slash-search-status.git"
+  },
+  "author": "Sam Morrison",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sbgood/slack-slash-search-status/issues"
+  },
+  "homepage": "https://github.com/sbgood/slack-slash-search-status#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.2",
+    "slack": "^11.0.0"
+  }
+}
